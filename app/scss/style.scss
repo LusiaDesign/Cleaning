@@ -1,0 +1,19 @@
+@import 'fonts';
+@import 'reset';
+@import 'libs';
+@import 'vars';
+@import 'global';
+
+@import 'header/header';
+@import 'header/nav';
+
+@import 'main/prise';
+@import 'main/discounts';
+
+@import 'components/menu';
+@import 'components/contact';
+@import 'components/prise-card';
+@import 'components/menu-btn';
+
+@import 'footer/footer';
+@import 'footer/social';

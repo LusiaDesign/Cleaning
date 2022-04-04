@@ -1,0 +1,11 @@
+$color-body: #363636;
+$color-gradient: linear-gradient(100deg, #3858F3, #9A36E7);
+$color-reserv: #3858F3;
+$color-footer: #213493;
+
+%text-grad {
+    color: $color-reserv;
+    background: $color-gradient;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

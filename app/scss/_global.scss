@@ -1,0 +1,100 @@
+html,
+body {
+    height: 100%;
+}
+
+svg {
+    fill: currentColor;
+}
+
+a,
+button,
+input{
+    transition: all 0.5s;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    line-height: 1.4;
+    font-size: 18px;
+    color: $color-body;
+    background-color: #fff;
+    margin: 0;
+}
+
+.no-scroll {
+    overflow: hidden;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.container {
+    max-width: 1310px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.main {
+    flex-grow: 1;
+}
+
+.title {
+    display: inline-block;
+    @extend %text-grad;
+    font-weight: 700;
+    font-size: 42px;
+    margin-bottom: 30px;
+
+    @media (max-width: 768px) {
+        font-size: 32px;
+    }
+}
+
+/* .int интерактивное состояние элемента*/
+.int {
+    &:hover {
+        filter: invert(100%);
+    }
+
+    &:focus {
+        border-bottom: 2px solid currentColor;
+    }
+
+    &:active {
+        filter: invert(50%);
+    }
+}
+
+.slick-list {
+    overflow: hidden;
+}
+
+.slick-track {
+    display: flex;
+}
+
+.slick-current {
+    .prise__btn {
+        font-weight: 700;
+        background-image: linear-gradient(93.39deg, #3858F3 -0.53%, #9A36E7 93.1%);
+        color: #fff;
+
+        &:hover {
+            color: #fff;
+        }
+    }
+}

@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Клининговая компания</title>
+    <link rel="icon" href="images/favicon.svg" sizes="16x16" type="images/x-icon" />
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <a class="nav__logo logo int" href="index.html">
+                    <img class="logo__img" src="images/logo.svg" width="137" height="55"
+                        alt="Логотип клининговой компании">
+                </a>
+                <button class="menu-btn" type="button">
+                    <span class="menu-btn__line"></span>
+                </button>
+                <div class="nav__menu">
+                    <button class="nav__close-btn" type="button"></button>
+                    <ul class="menu">
+                        <li class="menu__item">
+                            <a class="menu__link int" href="#">Главная</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link int" href="#">Услуги</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link int" href="#">О нас</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link int" href="#">Наши работы</a>
+                        </li>
+                        <li class="menu__item menu__item--details">
+                            <details class="menu__info">
+                                <summary class="menu__summary">Контакты</summary>
+                                <p class="menu__text">+38 063 000 00 00</p>
+                            </details>
+                        </li>
+                        <li class="menu__item menu__item--details">
+                            <details class="menu__info">
+                                <summary class="menu__summary">Время работы</summary>
+                                <p class="menu__text">С 8:00 до 20:00</p>
+                            </details>
+                        </li>
+                        <li class="menu__item menu__item--lang">
+                            <a class="menu__link menu__link--lang int" href="index.html">ua</a>
+                        </li>
+                        <li class="menu__item menu__item--lang">
+                            <a class="menu__link menu__link--lang int" href="index-ru.html">rus</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="contact">
+                    <a class="contact__tell int" href="tel:+380630000000">
+                        +38 063 000 00 00
+                    </a>
+                    <span class="contact__time">С 8:00 до 20:00</span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <h1 class="sr-only">Клининговая компания</h1>
+        <section class="prise">
+            <div class="container">
+                <h2 class="title">Стоимость услуг</h2>
+                <p class="prise__subtitle">
+                    Здесь Вы можете ознакомится с приблизительной стоимостью работ. В связи с тем, что требования к
+                    уборке
+                    разные, а состояние квартир отличается друг от друга, точную стоимость работ рассчитает менеджер
+                    индивидуально для Вас.
+                </p>
+                <div class="prise__inner">
+                    <ul class="prise__buttons">
+                        <li class="prise__btn">
+                            1
+                            <span class="prise__btn-text">комната</span>
+                        </li>
+                        <li class="prise__btn">
+                            2
+                            <span class="prise__btn-text">комната</span>
+                        </li>
+                        <li class="prise__btn">
+                            3
+                            <span class="prise__btn-text">комната</span>
+                        </li>
+                        <li class="prise__btn">+
+                            4
+                            <span class="prise__btn-text">комната</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="prise__content">
+                    <ul class="prise__wrap">
+                        <li class="prise__item">
+                            <div class="prise__wrapper">
+                                <article class="prise-card">
+                                    <h3 class="prise-card__title">
+                                        Минимальная цена
+                                        <span class="prise-card__subtitle">
+                                            (стандартная уборка) 1-2 сотрудника от 4 часов
+                                        </span>
+                                    </h3>
+                                    <ul class="prise-card__list"
+                                        style="background-image: url('../../images/Group1.svg');">
+                                        <li class="prise-card__item">
+                                            Полный пакет моющих средств
+                                        </li>
+                                        <li class="prise-card__item">
+                                            Необходимый комплект оборудования и техники
+                                        </li>
+                                    </ul>
+                                    <span class="prise-card__cost">≈ 1 500,0 грн</span>
+                                </article>
+                                <article class="prise-card">
+                                    <h3 class="prise-card__title">
+                                        Минимальная цена
+                                        <span class="prise-card__subtitle">
+                                            (стандартная уборка) 2-3 сотрудника от 6 часов
+                                        </span>
+                                    </h3>
+                                    <ul class="prise-card__list"
+                                        style="background-image: url('../../images/Group2.svg');">
+                                        <li class="prise-card__item">
+                                            Расширенныйй пакет моющих средств
+                                        </li>
+                                        <li class="prise-card__item">
+                                            Полный комплект оборудования и техники
+                                        </li>
+                                        <li class="prise-card__item">
+                                            Дополнительная дезинфекция
+                                        </li>
+                                    </ul>
+                                    <span class="prise-card__cost">≈ 2 800,0 грн</span>
+                                </article>
+                            </div>
+                        </li>
+                        <li class="prise__item">
+                            <div class="prise__wrapper">
+                                <article class="prise-card">
+                                    <h3 class="prise-card__title">
+                                        Минимальная цена
+                                        <span class="prise-card__subtitle">
+                                            (стандартная уборка) 2 сотрудника от 5 часов
+                                        </span>
+                                    </h3>
+                                    <ul class="prise-card__list"
+                                        style="background-image: url('../../images/Group3.svg');">
+                                        <li class="prise-card__item">
+                                            Полный пакет моющих средств
+                                        </li>
+                                        <li class="prise-card__item">
+                                            Необходимый комплект оборудования и техники
+                                        </li>
+                                    </ul>
+                                    <span class="prise-card__cost">≈ 2 200,0 грн</span>
+                                </article>
+                                <article class="prise-card">
+                                    <h3 class="prise-card__title">
+                                        Минимальная цена
+                                        <span class="prise-card__subtitle">
+                                            (стандартная уборка) 2-3 сотрудника от 6 часов
+                                        </span>
+                                    </h3>
+                                    <ul class="prise-card__list"
+                                        style="background-image: url('../../images/Group4.svg');">
+                                        <li class="prise-card__item">
+                                            Расширенныйй пакет моющих средств
+                                        </li>
+                                        <li class="prise-card__item">
+                                            Полный комплект оборудования и техники
+                                        </li>
+                                        <li class="prise-card__item">
+                                            Дополнительная дезинфекция
+                                        </li>
+                                    </ul>
+                                    <span class="prise-card__cost">≈ 3 800,0 грн</span>
+                                </article>
+                            </div>
+                        </li>
+                        <li class="prise__item">
+                            <div class="prise__wrapper">
+                                <article class="prise-card">
+                                    <h3 class="prise-card__title">
+                                        Минимальная цена
+                                        <span class="prise-card__subtitle">
+                                            (стандартная уборка) 2-3 сотрудника от 6 часов
+                                        </span>
+                                    </h3>
+                                    <ul class="prise-card__list"
+                                        style="background-image: url('../../images/Group5.svg');">
+                                        <li class="prise-card__item">
+                                            Полный пакет моющих средств
+                                        </li>
+                                        <li class="prise-card__item">
+                                            Необходимый комплект оборудования и техники
+                                        </li>
+                                    </ul>
+                                    <span class="prise-card__cost">≈ 3 000,0 грн</span>
+                                </article>
+                                <article class="prise-card">
+                                    <h3 class="prise-card__title">
+                                        Минимальная цена
+                                        <span class="prise-card__subtitle">
+                                            (стандартная уборка) 3-4 сотрудника от 7 часов
+                                        </span>
+                                    </h3>
+                                    <ul class="prise-card__list"
+                                        style="background-image: url('../../images/Group6.svg');">
+                                        <li class="prise-card__item">
+                                            Расширенныйй пакет моющих средств
+                                        </li>
+                                        <li class="prise-card__item">
+                                            Полный комплект оборудования и техники
+                                        </li>
+                                        <li class="prise-card__item">
+                                            Дополнительная дезинфекция
+                                        </li>
+                                    </ul>
+                                    <span class="prise-card__cost">≈ 5 500,0 грн</span>
+                                </article>
+                            </div>
+                        </li>
+                        <li class="prise__item">
+                            <div class="prise__wrapper">
+                                <article class="prise-card">
+                                    <h3 class="prise-card__title">
+                                        Минимальная цена
+                                        <span class="prise-card__subtitle">
+                                            (стандартная уборка) 3-4 сотрудника от 6 часов
+                                        </span>
+                                    </h3>
+                                    <ul class="prise-card__list"
+                                        style="background-image: url('../../images/Group7.svg');">
+                                        <li class="prise-card__item">
+                                            Полный пакет моющих средств
+                                        </li>
+                                        <li class="prise-card__item">
+                                            Необходимый комплект оборудования и техники
+                                        </li>
+                                    </ul>
+                                    <span class="prise-card__cost">≈ 3 500,0 грн</span>
+                                </article>
+                                <article class="prise-card">
+                                    <h3 class="prise-card__title">
+                                        Минимальная цена
+                                        <span class="prise-card__subtitle">
+                                            (стандартная уборка) 4-5 сотрудников от 7 часов
+                                        </span>
+                                    </h3>
+                                    <ul class="prise-card__list"
+                                        style="background-image: url('../../images/Group8.svg');">
+                                        <li class="prise-card__item">
+                                            Расширенныйй пакет моющих средств
+                                        </li>
+                                        <li class="prise-card__item">
+                                            Полный комплект оборудования и техники
+                                        </li>
+                                        <li class="prise-card__item">
+                                            Дополнительная дезинфекция
+                                        </li>
+                                    </ul>
+                                    <span class="prise-card__cost">≈ 6 500,0 грн</span>
+                                </article>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="discounts">
+            <div class="container">
+                <h2 class="discounts__title">
+                    Перечень акционных услуг (При заказе генеральной уборки)
+                    <span class="discounts__subtitle">
+                        Можно выбрать 1 вариант, действует в течении 6 месяцев после заказа
+                    </span>
+                </h2>
+                <form class="discounts__sale" action="#">
+                    <label class="discounts__label">
+                        <input class="discounts__field" type="radio" name="sale">
+                        <span class="discounts__checkbox"></span>
+                        Химчистка 1 предмета - 50%
+                    </label>
+                    <label class="discounts__label">
+                        <input class="discounts__field" type="radio" name="sale">
+                        <span class="discounts__checkbox"></span>
+                        Скидка 15% на сезонную мойку окон
+                    </label>
+                    <label class="discounts__label">
+                        <input class="discounts__field" type="radio" name="sale">
+                        <span class="discounts__checkbox"></span>
+                        Скидка на химчистку всех предметов 25%
+                    </label>
+                    <div class="discounts__wrap">
+                        <button class="discounts__btn" type="submit">Узнать точную цену</button>
+                        <a class="discounts__btn" href="#">Узнать подробности</a>
+                        <a class="discounts__back" href="#">Назад</a>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__items">
+                    <h3 class="footer__title">ИНН/КПП</h3>
+                    <span class="footer__item footer__item--info">856352489613/768568678681</span>
+                    <h3 class="footer__title">Юр. Адрес:</h3>
+                    <span class="footer__item footer__item--info">г. Киев, ул. Владимирская, 40А</span>
+                    <h3 class="footer__title">Р/С</h3>
+                    <span class="footer__item footer__item--info">Приват 24
+                        3578 9076 7890 4780</span>
+                </div>
+                <div class="footer__items">
+                    <h3 class="footer__title">Услуги</h3>
+                    <ul class="footer__list">
+                        <li class="footer__item">Уборка квартир</li>
+                        <li class="footer__item">Уборка офисов</li>
+                        <li class="footer__item">Химчистка мягкой мебели</li>
+                        <li class="footer__item">Мойка окон</li>
+                        <li class="footer__item">Уборка квартир</li>
+                        <li class="footer__item">Уборка офисов</li>
+                        <li class="footer__item">Химчистка мягкой мебели</li>
+                        <li class="footer__item">Мойка окон</li>
+                    </ul>
+                </div>
+                <div class="footer__items">
+                    <h3 class="footer__title">Контакты</h3>
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <a class="footer__link int" href="tel:+80677777777">+38 (067) 777-77-77</a>
+                        </li>
+                        <li class="footer__item">
+                            <a class="footer__link int" href="tel:+80937777777">+38 (093) 777-77-77</a>
+                        </li>
+                        <li class="footer__item">
+                            <a class="footer__link int" href="mail:ivanov@gmail.com">ivanov@gmail.com</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__wrap">
+                <a class="footer__logo int" href="index.html">
+                    Лого
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src="js/main.min.js"></script>
+</body>
+
+</html>

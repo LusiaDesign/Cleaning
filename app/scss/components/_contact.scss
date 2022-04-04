@@ -1,0 +1,32 @@
+.contact {
+    text-align: right;
+
+    @media (max-width: 992px){
+        width: 100%;
+    }
+
+    @media (max-width: 768px){
+        width: auto;
+    }
+
+    @media (max-width: 576px){
+        display: none;
+    }
+
+    &__tell {
+        display: block;
+        font-weight: 700;
+        font-size: 20px;
+        text-transform: uppercase;
+        @extend %text-grad;
+        border-bottom: 2px solid transparent;
+    }
+
+    &__time {
+        font-weight: 500;
+        font-size: 14px;
+        color: $color-reserv;
+        opacity: 0.8;
+        border-bottom: 2px solid rgba(56, 88, 243, 0.2);
+    }
+}
