@@ -20,26 +20,25 @@
         display: block;
         width: 30px;
         margin: auto;
-        border-bottom: 2px solid #FFFFFF;
-    }
-    
-    &__line::before {
-        content: '';
-        position: absolute;
-        left: 7px;
-        top: 10px;
-        width: 30px;
-        height: 2px;
-        background-color: #FFFFFF;
-    }
-    
-    &__line::after {
-        content: '';
-        position: absolute;
-        left: 7px;
-        bottom: 10px;
-        width: 30px;
-        height: 2px;
-        background-color: #FFFFFF;
+        border-bottom: 2px solid #fff;
+        color: #fff;
+        
+        &::before,
+        &::after{
+            content: '';
+            position: absolute;
+            left: 7px;
+            width: 30px;
+            height: 2px;
+            background-color: currentColor;
+        }
+
+        &::before{
+            top: 10px;
+        }
+
+        &::after{
+            bottom: 10px;
+        }
     }
 }

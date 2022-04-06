@@ -13,7 +13,16 @@ $(function () {
             $('.nav__menu').removeClass('active');
             $('body').removeClass('no-scroll');
         }
-    }
+    };
+
+    $(window).scroll(function () {
+        var height = $(window).scrollTop();
+        if (height >= 70) {
+            $('.header').addClass('fixed');
+        } else {
+            $('.header').removeClass('fixed');
+        }
+    });
 
     $('.menu-btn').on('click', function () {
         $('.nav__menu').addClass('active');
@@ -36,17 +45,18 @@ $(function () {
         slidesToScroll: 1,
         asNavFor: '.prise__wrap',
         focusOnSelect: true,
-        //autoplay: true,
-        // speed: 1000,
+        autoplay: true,
+        speed: 1000,
         infinite: true
     });
+
     $('.prise__wrap').slick({
         arrows: false,
         asNavFor: '.prise__buttons',
         speed: 1500,
         slidesToShow: 1,
         slidesToScroll: 1,
-        //autoplay: true,
-        //speed: 1000,
+        autoplay: true,
+        speed: 1000,
     });
 });
